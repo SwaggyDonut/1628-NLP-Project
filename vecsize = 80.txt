@@ -1,0 +1,174 @@
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.9218621512261091
+TP: 1475, FP: 1779, TN: 16332, FN: 414
+Precision: 0.45328826060233557
+Recall: 0.7808364213869773
+F1 score: 0.5735951779117248
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.9185622879397771
+TP: 1128, FP: 1266, TN: 12244, FN: 362
+Precision: 0.47117794486215536
+Recall: 0.7570469798657719
+F1 score: 0.5808444902162719
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9802799870385969
+TP: 193, FP: 988, TN: 18801, FN: 18
+Precision: 0.1634208298052498
+Recall: 0.9146919431279621
+F1 score: 0.2772988505747127
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9767565718579667
+TP: 136, FP: 724, TN: 14124, FN: 16
+Precision: 0.15813953488372093
+Recall: 0.8947368421052632
+F1 score: 0.2687747035573122
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.9525953483385359
+TP: 860, FP: 1085, TN: 17830, FN: 225
+Precision: 0.442159383033419
+Recall: 0.7926267281105991
+F1 score: 0.5676567656765675
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9523939453679676
+TP: 628, FP: 804, TN: 13403, FN: 165
+Precision: 0.43854748603351956
+Recall: 0.7919293820933165
+F1 score: 0.5644943820224719
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9528804674959633
+TP: 57, FP: 1662, TN: 18274, FN: 7
+Precision: 0.03315881326352531
+Recall: 0.890625
+F1 score: 0.06393718452047112
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.9210791047680265
+TP: 36, FP: 1219, TN: 13737, FN: 8
+Precision: 0.028685258964143426
+Recall: 0.8181818181818182
+F1 score: 0.05542725173210162
+=======================
+Classification model for insult Eval on train dataset
+lambda = 0.8, vector size = 80, regParam = 0.01
+W2V vectorizer
+
+Train Area Under ROC: 0.9371357188973972
+TP: 792, FP: 1444, TN: 17538, FN: 226
+Precision: 0.3542039355992844
+Recall: 0.7779960707269156
+F1 score: 0.4867854947756607
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.939246977426714
+TP: 573, FP: 1032, TN: 13209, FN: 186
+Precision: 0.35700934579439253
+Recall: 0.7549407114624506
+F1 score: 0.4847715736040609
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9433235809618834
+TP: 154, FP: 1612, TN: 18203, FN: 31
+Precision: 0.08720271800679502
+Recall: 0.8324324324324325
+F1 score: 0.15786776012301387
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9295578871848601
+TP: 100, FP: 1132, TN: 13736, FN: 32
+Precision: 0.08116883116883117
+Recall: 0.7575757575757576
+F1 score: 0.14662756598240467
+=======================
+
+lambda = 0.5, vector size = 80, regParam = 0.01
+W2V vectorizer
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.9209672521478861
+TP: 1271, FP: 1044, TN: 17067, FN: 618
+Precision: 0.5490280777537797
+Recall: 0.6728427739544732
+F1 score: 0.6046622264509991
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.9172575124565662
+TP: 957, FP: 707, TN: 12803, FN: 533
+Precision: 0.5751201923076923
+Recall: 0.6422818791946309
+F1 score: 0.606848446417248
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.980275915649411
+TP: 178, FP: 634, TN: 19155, FN: 33
+Precision: 0.21921182266009853
+Recall: 0.8436018957345972
+F1 score: 0.3479960899315738
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9781704606680836
+TP: 127, FP: 468, TN: 14380, FN: 25
+Precision: 0.2134453781512605
+Recall: 0.8355263157894737
+F1 score: 0.34002677376171353
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.950457723188003
+TP: 779, FP: 687, TN: 18228, FN: 306
+Precision: 0.5313778990450204
+Recall: 0.7179723502304147
+F1 score: 0.6107408859270874
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9521079559470235
+TP: 574, FP: 519, TN: 13688, FN: 219
+Precision: 0.52516010978957
+Recall: 0.7238335435056746
+F1 score: 0.6086956521739131
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9534149904694769
+TP: 45, FP: 1170, TN: 18766, FN: 19
+Precision: 0.037037037037037035
+Recall: 0.703125
+F1 score: 0.07036747458952307
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.926531461985511
+TP: 35, FP: 853, TN: 14103, FN: 9
+Precision: 0.039414414414414414
+Recall: 0.7954545454545454
+F1 score: 0.07510729613733906
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.9366223072670241
+TP: 695, FP: 833, TN: 18149, FN: 323
+Precision: 0.4548429319371728
+Recall: 0.6827111984282908
+F1 score: 0.5459544383346425
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.9400023721151183
+TP: 492, FP: 614, TN: 13627, FN: 267
+Precision: 0.4448462929475588
+Recall: 0.6482213438735178
+F1 score: 0.5276139410187668
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.942951763269778
+TP: 139, FP: 1164, TN: 18651, FN: 46
+Precision: 0.10667689946277821
+Recall: 0.7513513513513513
+F1 score: 0.1868279569892473
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9267941725566705
+TP: 93, FP: 835, TN: 14033, FN: 39
+Precision: 0.10021551724137931
+Recall: 0.7045454545454546
+F1 score: 0.17547169811320754
+=======================
