@@ -1,0 +1,520 @@
+lambda = 1, regParam = 0.01
+TFIDF
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.918148945569096
+TP: 1659, FP: 4253, TN: 13858, FN: 230
+Precision: 0.28061569688768606
+Recall: 0.8782424563260984
+F1 score: 0.4253300858864248
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.8794289340732048
+TP: 1209, FP: 3224, TN: 10286, FN: 281
+Precision: 0.2727272727272727
+Recall: 0.8114093959731543
+F1 score: 0.4082390680398446
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9901303539066856
+TP: 197, FP: 591, TN: 19198, FN: 14
+Precision: 0.25
+Recall: 0.933649289099526
+F1 score: 0.3943943943943944
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9398448134074128
+TP: 96, FP: 449, TN: 14399, FN: 56
+Precision: 0.1761467889908257
+Recall: 0.631578947368421
+F1 score: 0.2754662840746055
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.9726708741872349
+TP: 979, FP: 967, TN: 17948, FN: 106
+Precision: 0.5030832476875642
+Recall: 0.9023041474654377
+F1 score: 0.6459914219729461
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9012475511823387
+TP: 538, FP: 794, TN: 13413, FN: 255
+Precision: 0.4039039039039039
+Recall: 0.6784363177805801
+F1 score: 0.5063529411764707
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9974065446930176
+TP: 64, FP: 427, TN: 19509, FN: 0
+Precision: 0.13034623217922606
+Recall: 1.0
+F1 score: 0.2306306306306306
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.8924565087894971
+TP: 19, FP: 317, TN: 14639, FN: 25
+Precision: 0.05654761904761905
+Recall: 0.4318181818181818
+F1 score: 0.09999999999999999
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.969400982504576
+TP: 949, FP: 1196, TN: 17786, FN: 69
+Precision: 0.44242424242424244
+Recall: 0.9322200392927309
+F1 score: 0.600063231109706
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.911903586288311
+TP: 566, FP: 950, TN: 13291, FN: 193
+Precision: 0.3733509234828496
+Recall: 0.7457180500658761
+F1 score: 0.4975824175824176
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9930654500071616
+TP: 184, FP: 565, TN: 19250, FN: 1
+Precision: 0.24566088117489987
+Recall: 0.9945945945945946
+F1 score: 0.39400428265524623
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9299061539526413
+TP: 84, FP: 437, TN: 14431, FN: 48
+Precision: 0.16122840690978887
+Recall: 0.6363636363636364
+F1 score: 0.2572741194486983
+=======================
+
+W2V
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.9181049839734063
+TP: 1451, FP: 1795, TN: 16316, FN: 438
+Precision: 0.4470117067159581
+Recall: 0.7681312863949179
+F1 score: 0.565141187925998
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.9153539759263474
+TP: 1114, FP: 1274, TN: 12236, FN: 376
+Precision: 0.466499162479062
+Recall: 0.7476510067114094
+F1 score: 0.5745229499742135
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9782780610320083
+TP: 190, FP: 1058, TN: 18731, FN: 21
+Precision: 0.15224358974358973
+Recall: 0.9004739336492891
+F1 score: 0.2604523646333105
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9733248674285194
+TP: 135, FP: 798, TN: 14050, FN: 17
+Precision: 0.14469453376205788
+Recall: 0.8881578947368421
+F1 score: 0.24884792626728108
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.9465950876525094
+TP: 895, FP: 1405, TN: 17510, FN: 190
+Precision: 0.38913043478260867
+Recall: 0.8248847926267281
+F1 score: 0.5288035450516986
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9477500345947627
+TP: 641, FP: 1040, TN: 13167, FN: 152
+Precision: 0.3813206424747174
+Recall: 0.8083228247162674
+F1 score: 0.5181891673403395
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9482547276283901
+TP: 57, FP: 2008, TN: 17928, FN: 7
+Precision: 0.027602905569007265
+Recall: 0.890625
+F1 score: 0.05354626585251292
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.9256895985801793
+TP: 38, FP: 1437, TN: 13519, FN: 6
+Precision: 0.02576271186440678
+Recall: 0.8636363636363636
+F1 score: 0.050032916392363395
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.9345179975074228
+TP: 825, FP: 1762, TN: 17220, FN: 193
+Precision: 0.3189022033243139
+Recall: 0.8104125736738703
+F1 score: 0.4576976421636616
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.937725918752854
+TP: 609, FP: 1273, TN: 12968, FN: 150
+Precision: 0.3235919234856536
+Recall: 0.8023715415019763
+F1 score: 0.4611889435819766
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9409240883579049
+TP: 160, FP: 2050, TN: 17765, FN: 25
+Precision: 0.07239819004524888
+Recall: 0.8648648648648649
+F1 score: 0.13361169102296455
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9350720685465609
+TP: 113, FP: 1486, TN: 13382, FN: 19
+Precision: 0.07066916823014384
+Recall: 0.8560606060606061
+F1 score: 0.13056036972848065
+=======================
+
+
+lambda = 1, regParam = 0.03
+TFIDF
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.7944742349534936
+TP: 1666, FP: 9172, TN: 8939, FN: 223
+Precision: 0.15371839822845543
+Recall: 0.8819481206987825
+F1 score: 0.2618056101202169
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.782701255346494
+TP: 1299, FP: 6781, TN: 6729, FN: 191
+Precision: 0.16076732673267327
+Recall: 0.8718120805369127
+F1 score: 0.27147335423197494
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9479878835458176
+TP: 197, FP: 6419, TN: 13370, FN: 14
+Precision: 0.029776299879081015
+Recall: 0.933649289099526
+F1 score: 0.05771202577999121
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.931776652535141
+TP: 141, FP: 4803, TN: 10045, FN: 11
+Precision: 0.028519417475728157
+Recall: 0.9276315789473685
+F1 score: 0.05533751962323391
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.8742397653339076
+TP: 506, FP: 305, TN: 18610, FN: 579
+Precision: 0.623921085080148
+Recall: 0.4663594470046083
+F1 score: 0.5337552742616034
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.8552537153105858
+TP: 349, FP: 256, TN: 13951, FN: 444
+Precision: 0.5768595041322314
+Recall: 0.4401008827238335
+F1 score: 0.4992846924177396
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9847073134028814
+TP: 62, FP: 590, TN: 19346, FN: 2
+Precision: 0.0950920245398773
+Recall: 0.96875
+F1 score: 0.17318435754189943
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.8842703749179369
+TP: 22, FP: 489, TN: 14467, FN: 22
+Precision: 0.043052837573385516
+Recall: 0.5
+F1 score: 0.07927927927927927
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.8410870167767147
+TP: 883, FP: 7347, TN: 11635, FN: 135
+Precision: 0.10729040097205346
+Recall: 0.8673870333988212
+F1 score: 0.19096020761245674
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.8351918448089468
+TP: 639, FP: 5461, TN: 8780, FN: 120
+Precision: 0.10475409836065573
+Recall: 0.841897233201581
+F1 score: 0.18632453710453417
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9466927184565301
+TP: 146, FP: 854, TN: 18961, FN: 39
+Precision: 0.146
+Recall: 0.7891891891891892
+F1 score: 0.24641350210970464
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9097010765442964
+TP: 89, FP: 639, TN: 14229, FN: 43
+Precision: 0.12225274725274725
+Recall: 0.6742424242424242
+F1 score: 0.2069767441860465
+=======================
+
+W2V
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.9078840883546345
+TP: 1430, FP: 1946, TN: 16165, FN: 459
+Precision: 0.4235781990521327
+Recall: 0.7570142932768661
+F1 score: 0.5432098765432098
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.9033330518283399
+TP: 1097, FP: 1406, TN: 12104, FN: 393
+Precision: 0.4382740711146624
+Recall: 0.736241610738255
+F1 score: 0.5494615577260205
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9763874994940187
+TP: 179, FP: 843, TN: 18946, FN: 32
+Precision: 0.175146771037182
+Recall: 0.8483412322274881
+F1 score: 0.29034874290348744
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9709658752551709
+TP: 132, FP: 658, TN: 14190, FN: 20
+Precision: 0.1670886075949367
+Recall: 0.868421052631579
+F1 score: 0.2802547770700637
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.9379533225890978
+TP: 853, FP: 1361, TN: 17554, FN: 232
+Precision: 0.3852755194218609
+Recall: 0.7861751152073733
+F1 score: 0.5171264019399818
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9389059315821426
+TP: 614, FP: 1017, TN: 13190, FN: 179
+Precision: 0.3764561618638872
+Recall: 0.7742749054224464
+F1 score: 0.5066006600660066
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9435584495384948
+TP: 53, FP: 1763, TN: 18173, FN: 11
+Precision: 0.02918502202643172
+Recall: 0.828125
+F1 score: 0.05638297872340426
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.916761895499586
+TP: 37, FP: 1282, TN: 13674, FN: 7
+Precision: 0.028051554207733132
+Recall: 0.8409090909090909
+F1 score: 0.05429200293470286
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.9260453859815059
+TP: 797, FP: 1599, TN: 17383, FN: 221
+Precision: 0.33263772954924875
+Recall: 0.7829076620825147
+F1 score: 0.46690099589923845
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.9291820486396642
+TP: 579, FP: 1175, TN: 13066, FN: 180
+Precision: 0.33010262257696693
+Recall: 0.7628458498023716
+F1 score: 0.46080382013529647
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9331486520583336
+TP: 155, FP: 1789, TN: 18026, FN: 30
+Precision: 0.07973251028806584
+Recall: 0.8378378378378378
+F1 score: 0.1456082667919211
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9316734740462589
+TP: 111, FP: 1318, TN: 13550, FN: 21
+Precision: 0.07767669699090272
+Recall: 0.8409090909090909
+F1 score: 0.14221652786675207
+=======================
+
+
+lambda = 1, regParam = 0.05
+TFIDF
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.6522249171109082
+TP: 1704, FP: 12015, TN: 6096, FN: 185
+Precision: 0.12420730373933961
+Recall: 0.9020645844362096
+F1 score: 0.21834956432598668
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.6471573629277837
+TP: 1338, FP: 8920, TN: 4590, FN: 152
+Precision: 0.13043478260869565
+Recall: 0.897986577181208
+F1 score: 0.2277834525025536
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9081469455360689
+TP: 200, FP: 9474, TN: 10315, FN: 11
+Precision: 0.02067397146991937
+Recall: 0.9478672985781991
+F1 score: 0.04046535154274153
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9167704227399044
+TP: 144, FP: 7134, TN: 7714, FN: 8
+Precision: 0.01978565539983512
+Recall: 0.9473684210526315
+F1 score: 0.03876177658142665
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.7463375201453036
+TP: 295, FP: 94, TN: 18821, FN: 790
+Precision: 0.7583547557840618
+Recall: 0.271889400921659
+F1 score: 0.4002713704206241
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.726988968992161
+TP: 194, FP: 72, TN: 14135, FN: 599
+Precision: 0.7293233082706767
+Recall: 0.244640605296343
+F1 score: 0.3663833805476865
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9543464868830233
+TP: 47, FP: 1143, TN: 18793, FN: 17
+Precision: 0.03949579831932773
+Recall: 0.734375
+F1 score: 0.07496012759170653
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.8691434267791568
+TP: 24, FP: 947, TN: 14009, FN: 20
+Precision: 0.024716786817713696
+Recall: 0.5454545454545454
+F1 score: 0.047290640394088666
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.7332176082852968
+TP: 946, FP: 11812, TN: 7170, FN: 72
+Precision: 0.07414955322150807
+Recall: 0.9292730844793713
+F1 score: 0.13734030197444833
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.7271200293017287
+TP: 695, FP: 8793, TN: 5448, FN: 64
+Precision: 0.07325042158516021
+Recall: 0.9156785243741765
+F1 score: 0.1356494583780619
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.8791994871480086
+TP: 163, FP: 7902, TN: 11913, FN: 22
+Precision: 0.020210787352758833
+Recall: 0.8810810810810811
+F1 score: 0.03951515151515152
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.8704251453192089
+TP: 116, FP: 5932, TN: 8936, FN: 16
+Precision: 0.01917989417989418
+Recall: 0.8787878787878788
+F1 score: 0.037540453074433655
+=======================
+
+W2V
+Classification model for toxic Eval on train dataset
+Train Area Under ROC: 0.8952221257541395
+TP: 1411, FP: 2108, TN: 16003, FN: 478
+Precision: 0.40096618357487923
+Recall: 0.7469560614081525
+F1 score: 0.521819526627219
+-----------------------
+Classification model for toxic Eval on test dataset
+Test Area Under ROC: 0.8902447602820087
+TP: 1081, FP: 1539, TN: 11971, FN: 409
+Precision: 0.4125954198473282
+Recall: 0.725503355704698
+F1 score: 0.5260340632603407
+=======================
+Classification model for severe_toxic Eval on train dataset
+Train Area Under ROC: 0.9745718994155436
+TP: 178, FP: 789, TN: 19000, FN: 33
+Precision: 0.18407445708376421
+Recall: 0.8436018957345972
+F1 score: 0.3022071307300509
+-----------------------
+Classification model for severe_toxic Eval on test dataset
+Test Area Under ROC: 0.9701634457236101
+TP: 130, FP: 607, TN: 14241, FN: 22
+Precision: 0.17639077340569878
+Recall: 0.8552631578947368
+F1 score: 0.2924634420697413
+=======================
+Classification model for obscene Eval on train dataset
+Train Area Under ROC: 0.9314743254750457
+TP: 831, FP: 1424, TN: 17491, FN: 254
+Precision: 0.36851441241685146
+Recall: 0.7658986175115208
+F1 score: 0.4976047904191617
+-----------------------
+Classification model for obscene Eval on test dataset
+Test Area Under ROC: 0.9335201525348473
+TP: 607, FP: 1062, TN: 13145, FN: 186
+Precision: 0.36369083283403236
+Recall: 0.7654476670870114
+F1 score: 0.4930950446791227
+=======================
+Classification model for threat Eval on train dataset
+Train Area Under ROC: 0.9431563816713324
+TP: 52, FP: 1727, TN: 18209, FN: 12
+Precision: 0.02922990444069702
+Recall: 0.8125
+F1 score: 0.05642973412913727
+-----------------------
+Classification model for threat Eval on test dataset
+Test Area Under ROC: 0.9171448369764302
+TP: 38, FP: 1252, TN: 13704, FN: 6
+Precision: 0.02945736434108527
+Recall: 0.8636363636363636
+F1 score: 0.056971514242878565
+=======================
+Classification model for insult Eval on train dataset
+Train Area Under ROC: 0.9175006867224101
+TP: 776, FP: 1677, TN: 17305, FN: 242
+Precision: 0.3163473298002446
+Recall: 0.762278978388998
+F1 score: 0.4471333909536157
+-----------------------
+Classification model for insult Eval on test dataset
+Test Area Under ROC: 0.9223153120123251
+TP: 579, FP: 1223, TN: 13018, FN: 180
+Precision: 0.3213096559378468
+Recall: 0.7628458498023716
+F1 score: 0.4521671222178837
+=======================
+Classification model for identity_hate Eval on train dataset
+Train Area Under ROC: 0.9294675750690844
+TP: 154, FP: 1913, TN: 17902, FN: 31
+Precision: 0.0745041122399613
+Recall: 0.8324324324324325
+F1 score: 0.13676731793960925
+-----------------------
+Classification model for identity_hate Eval on test dataset
+Test Area Under ROC: 0.9289281026568104
+TP: 111, FP: 1429, TN: 13439, FN: 21
+Precision: 0.07207792207792207
+Recall: 0.8409090909090909
+F1 score: 0.13277511961722488
+=======================
